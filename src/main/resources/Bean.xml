@@ -16,4 +16,7 @@
     <bean id="UserTemplate" class="org.ax.service.impl.UserService" >
         <property name="dataSouce" ref="dataSouce"/>
     </bean>
+    <bean id="User" class="org.ax.bean.User">
+
+    </bean>
 </beans>
