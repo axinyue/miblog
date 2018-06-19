@@ -16,8 +16,8 @@
 
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close" p:driverClassName="com.mysql.jdbc.Driver"
-          p:url="jdbc:mysql://127.0.0.1:3306/yiibai?characterEncoding=utf8"
-          p:username="root" p:password="" p:maxActive="10" p:maxIdle="10">
+          p:url="jdbc:mysql://139.199.197.121:3306/yiibai?characterEncoding=utf8"
+          p:username="root" p:password="mysql@123" p:maxActive="10" p:maxIdle="10">
     </bean>
 
     <bean id="transactionManager"
@@ -35,6 +35,6 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.yiibai.maper" />
+        <property name="basePackage" value="org.ax.mapper" />
     </bean>
 </beans>

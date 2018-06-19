@@ -3,8 +3,7 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <typeAlias alias="User" type="com.yiibai.pojo.User"/>
-        <typeAlias alias="Order" type="com.yiibai.pojo.Order"/>
+        <typeAlias alias="User" type="com.ax.pojo.User"/>
     </typeAliases>
     <!-- 与spring 集成之后,这些可以完全删除,数据库连接的管理交给 spring 去管理 -->
     <!--
